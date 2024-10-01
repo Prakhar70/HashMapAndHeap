@@ -26,5 +26,32 @@ class Solution {
         }
         return mLen;
     }
-    
+    public int longestConsecutive2(int[] nums) {
+        HashMap<Integer, Boolean> map = new HashMap<>();
+        for (int ele:nums){
+            map.put(ele, true);
+        }
+        for(int ele:nums){
+            if (map.containsKey(ele-1)){
+                map.put(ele, false);
+            }
+        }
+        int mLen =0;// will store the max len
+        int tsi = 0;// will store the starting point from where the longest consecutive ss is present;
+        for(int ele:nums){
+            if(map.get(ele)==true){
+                int len=1;
+                while(map.get(ele+len)){
+                    len++;
+                }
+                if(len>mLen){
+                    tsi = ele;
+                    mLen=len;
+                }
+            }
+        }
+        return mLen;
+    }
+
+
 }
