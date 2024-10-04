@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class KLargest {
-    public List<Integer> KLargest(int[] nums,  int k ){
+    public List<Integer> KLargest_(int[] nums,  int k ){
         PriorityQueue<Integer> pq=new PriorityQueue<Integer>();
         List<Integer> ans = new ArrayList<Integer>();
         for(int i=0;i<nums.length;i++){
