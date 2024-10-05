@@ -12,12 +12,12 @@ public class KLargest {
                 continue;
             }
             if(pq.peek()<nums[i]){
-                pq.remove(pq.peek());
+                pq.remove();
                 pq.add(nums[i]);
             }
         }
-        while(pq.isEmpty()){
-            ans.add(pq.remove());
+        while(!pq.isEmpty()){
+            ans.add(pq.remove());//will insert in increasing order
         }
         return ans;
     }

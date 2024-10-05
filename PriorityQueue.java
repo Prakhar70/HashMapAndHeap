@@ -6,6 +6,24 @@ public class PriorityQueue {
     public PriorityQueue() {
         data = new ArrayList<Integer>();
     }
+    // public PriorityQueue(int[] arr) {
+
+    //     data = new ArrayList<Integer>();
+    //     for(int ele:arr)
+    //         this.add(ele);
+    // }
+    
+    public PriorityQueue(int[] arr) {
+
+        data = new ArrayList<Integer>();
+        for(int ele:arr)
+            this.data.add(ele);
+        
+        int n = data.size();
+        for(int i=n/2 - 1; i>=0;i--){
+            downheapify(i);
+        }
+    }
 
     public void add(int val) {
         this.data.add(val);

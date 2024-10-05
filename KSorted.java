@@ -1,18 +1,18 @@
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
-public class AlMostSorted {
+public class KSorted {
     ArrayList<Integer> nearlySorted(int arr[], int num, int k){
         PriorityQueue<Integer> pq=new PriorityQueue<Integer>();
         ArrayList<Integer> ans= new ArrayList<Integer>();
         for(int i=0;i<num;i++){
-            if(pq.size()<=k+1){
+            if(pq.size()<=k){
                 pq.add(arr[i]);
             }
             else{
-                int removedEle = pq.remove();
+                int smallestElem = pq.remove();
                 pq.add(arr[i]);
-                ans.add(removedEle);
+                ans.add(smallestElem);
             }
         }
         while(!pq.isEmpty()){
