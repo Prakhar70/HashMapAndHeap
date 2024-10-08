@@ -16,3 +16,5 @@
 
 1. KLargest
 2. MedianFinder
+3. KSorted
+4. PriorotyQueue
