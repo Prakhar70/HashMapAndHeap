@@ -1,7 +1,4 @@
-# HashMap Level1 Pepcoding
-
-
-### Question
+# HashMap Level1 Pepcoding### Question
 
 1. GetMaxFrequent
 2. GetCommonElement1

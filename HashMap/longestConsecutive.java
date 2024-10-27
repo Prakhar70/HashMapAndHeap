@@ -1,7 +1,7 @@
 package HashMap;
 import java.util.HashMap;
 
-class Solution {
+class LongestConsecutive {
     public int longestConsecutive(int[] nums) {
         int n=nums.length;
         HashMap<Integer,Integer> map = new HashMap<>();

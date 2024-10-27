@@ -1,23 +1,23 @@
 package HashMap;
 
-public class countSubArrayWithXorK {
+public class CountSubArrayWithXorK {
     public int subarraysWithXorK(int[] nums, int k) {
         int n = nums.length;
-        HashMap<Integer, Integer> map = new HashMap<Integer,Integer>();
-        int cx=0,cnt = 0, px = 0;
-        map.put(cx,1);
-        for(int i=0;i<n;i++){
-
-            cx = cx^nums[i];
-            px = cx ^k;
-            if(map.containsKey(px)){
-                cnt+=map.get(px);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
+        int cnt = 0;
+        int runningSum = 0;
+        for (int i = 0; i < n; i++) {
+            runningSum ^= nums[i];
+            if (map.containsKey(runningSum ^ k)) {
+                int noe = map.get(runningSum ^ k);
+                cnt += noe;
             }
-            if(!map.containsKey(cx)){
-                map.put(cx, 1);
-            }else{
-                int of = map.get(cx);
-                map.put(cx,of+1);
+            if (map.containsKey(runningSum)) {
+                int noe = map.get(runningSum);
+                map.put(runningSum, noe + 1);
+            } else {
+                map.put(runningSum, 1);
             }
         }
         return cnt;
