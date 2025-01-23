@@ -1,4 +1,4 @@
-package Heap;
+package Level1.Heap;
 
 import java.util.ArrayList;
 import java.util.Comparator;

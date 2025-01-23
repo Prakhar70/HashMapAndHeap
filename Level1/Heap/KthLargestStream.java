@@ -1,4 +1,4 @@
-package Heap;
+package Level1.Heap;
 
 import java.util.PriorityQueue;
 
@@ -31,6 +31,5 @@ class KthLargestStream {
             }
         }
         return pq.peek();
-        
     }
 }

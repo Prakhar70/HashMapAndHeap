@@ -1,4 +1,4 @@
-package Heap;
+package Level1.Heap;
 
 public class Min2MaxHeap {
     public int[] minToMaxHeap(int[] nums) {

@@ -1,4 +1,4 @@
-package Heap;
+package Level1.Heap;
 import java.util.Collections;
 import java.util.PriorityQueue;
 

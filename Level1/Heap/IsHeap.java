@@ -1,4 +1,4 @@
-package Heap;
+package Level1.Heap;
 
 public class IsHeap {
     public boolean isHeap(int[] nums) {

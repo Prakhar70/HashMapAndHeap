@@ -1,4 +1,4 @@
-package HashMap;
+package Level1.HashMap;
 import java.util.HashMap;
 
 class GetMaxFrequent{

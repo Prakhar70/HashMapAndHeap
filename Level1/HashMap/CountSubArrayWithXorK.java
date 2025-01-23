@@ -1,4 +1,4 @@
-package HashMap;
+package Level1.HashMap;
 
 public class CountSubArrayWithXorK {
     public int subarraysWithXorK(int[] nums, int k) {

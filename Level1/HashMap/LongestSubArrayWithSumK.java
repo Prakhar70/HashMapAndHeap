@@ -1,4 +1,4 @@
-package HashMap;
+package Level1.HashMap;
 
 class LongestSubArrayWithSumK {
     public int longestSubarray(int[] nums, int k) {
