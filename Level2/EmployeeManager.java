@@ -1,8 +1,9 @@
+package Level2;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class ManagerEmployee {
+public class EmployeeManager {
     private static void findCount(HashMap<String, String> map) {
         HashMap<String, HashSet<String>> tree = new HashMap();
         String root = "";
