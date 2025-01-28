@@ -2,7 +2,7 @@ package Level2;
 
 import java.util.HashMap;
 
-public class IsValidAnagram {
+public class Q022_IsValidAnagram {
     public boolean isAnagram(String s, String t) {
         HashMap<Character,Integer> map = new HashMap<>();
         for(char ch:s.toCharArray()){

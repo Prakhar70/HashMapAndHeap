@@ -3,7 +3,7 @@ package Level2;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestSubStringWithNonRepeatingCharacters {
+public class Q010_LongestSubstringWithNonRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
         if(n == 0 || n == 1){
@@ -22,9 +22,12 @@ public class LongestSubStringWithNonRepeatingCharacters {
                     maxLen = Math.max(maxLen, i - j +1);
                     set.add(s.charAt(i));
                 } else {
+                    //
                     rc = s.charAt(i);
                 }
+                
                 i++;
+                
                 flag1 = true;
             }
             while (j<n && rc != null) {

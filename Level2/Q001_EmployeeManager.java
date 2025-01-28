@@ -3,9 +3,9 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class EmployeeManager {
+public class Q001_EmployeeManager {
     private static void findCount(HashMap<String, String> map) {
-        HashMap<String, HashSet<String>> tree = new HashMap();
+        HashMap<String, HashSet<String>> tree = new HashMap<>();
         String root = "";
         for (String emp : map.keySet()) {
             String mgr = map.get(emp);

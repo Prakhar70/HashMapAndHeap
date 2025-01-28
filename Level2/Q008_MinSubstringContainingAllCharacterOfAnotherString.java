@@ -2,7 +2,7 @@ package Level2;
 
 import java.util.HashMap;
 
-public class MinSubstringContainingAllCharacterOfAnotherString {
+public class Q008_MinSubstringContainingAllCharacterOfAnotherString {
     public String minWindow(String s, String t) {
         int sLen = s.length();
         HashMap<Character,Integer> tfreq = new HashMap<>();

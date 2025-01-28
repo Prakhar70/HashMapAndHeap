@@ -2,7 +2,7 @@ package Level2;
 
 import java.util.HashMap;
 
-public class LargestSubArrayWith0Sum {
+public class Q005_LargestSubArrayWith0Sum {
     int maxLen(int arr[]) {
         int n= arr.length;
         HashMap<Integer,Integer> map = new HashMap<>();

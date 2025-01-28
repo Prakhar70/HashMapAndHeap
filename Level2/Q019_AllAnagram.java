@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class AllAnagram {
+public class Q019_AllAnagram {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> ans = new ArrayList<>();
         HashMap<Character, Integer> sMap = new HashMap<>();

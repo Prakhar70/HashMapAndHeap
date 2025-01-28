@@ -4,14 +4,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class GroupAnagram {
+public class Q023_GroupAnagram {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> ans = new ArrayList<>();
         HashMap<HashMap<Character, Integer>, ArrayList<String>> map = new HashMap<>();
         for (String str : strs) {
             HashMap<Character, Integer> freqMap = prepareFrequencyMap(str);
-            List<String> list = map.getOrDefault(freqMap, new ArrayList<String>());
+            ArrayList<String> list = map.getOrDefault(freqMap, new ArrayList<String>());
             list.add(str);
+            map.put(freqMap, list);
         }
         for(HashMap<Character, Integer> key:map.keySet()){
             ans.add(map.get(key));

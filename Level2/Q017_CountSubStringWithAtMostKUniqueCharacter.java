@@ -2,7 +2,7 @@ package Level2;
 
 import java.util.HashMap;
 
-public class CountSubStringWithAtMostKUniqueCharacter {
+public class Q017_CountSubStringWithAtMostKUniqueCharacter {
     public static int countSubstring(String str, int k){
         int n = str.length();
         int j=0;

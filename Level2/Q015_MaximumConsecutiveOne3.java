@@ -1,6 +1,6 @@
 package Level2;
 
-public class MaximumConsecutiveOKSwaps {
+public class Q015_MaximumConsecutiveOne3 {
     public static int longestOnes(int[] nums, int K) {
         int n = nums.length;
         int k =0;

@@ -3,7 +3,7 @@ package Level2;
 import java.util.HashSet;
 import java.util.Set;
 
-public class CountDistinctSubString {
+public class Q011_CountDistinctSubString {
     public static int countDistinctSubString(String str){
         int i = 0,j = 0;
         Character rc = null;
@@ -39,7 +39,7 @@ public class CountDistinctSubString {
     }
     public static void main(String[] args) {
         //String str="aabcbcdbca";
-        String str="abcd";
+        String str="LEETCODE";
         System.out.println("count="+countDistinctSubString(str));
     }
 }

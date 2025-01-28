@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 
-public class ArrayPairDivisible {
+public class Q003_ArrayPairDivisible {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();

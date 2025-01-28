@@ -3,7 +3,7 @@ package Level2;
 import java.util.HashMap;
 import java.util.HashSet;
 
-public class CheckKAnangram {
+public class Q020_CheckKAnangram {
     boolean areKAnagrams(String s1, String s2, int k) {
         if(s1.length() != s2.length()){
             return false;
