@@ -32,34 +32,33 @@
 29. Count Of Subarrays With Sum Divisible By K                                  --- Q029_CountSubarrayWithSumDivisibleByK
 30. Longest Subarray With Equal Number Of Zeroes And Ones                       --- Q030_LongestSubarrayWithEqualZerosOne.java
 31. Count Of Subarrays With Equal Number Of Zeroes And Ones                     --- Q031_CountSubarrayWithEqualZeroOne.java
-32. Longest Subarray With Equal Number Of 0s 1s And 2s 
-33. Count Of Subarrays With Equal Number Of 0s 1s And 2s 
-34. Pairs With Equal Sum 
-35. Recurring Sequence In A Fraction 
-36. Rabbits In The Forest  
-37. Double Pair Array  
-38. Check Arithmetic Sequence 
-39. Smallest Subarray With All Occurrences Of The Most Frequent Element ----------------------------------------  
-40. Task Completion 
-41. Pairs With Given Sum In Two Sorted Matrices 
-42. Quadruplet Sum  
-43. Quadruplet Sum - 2  
-44. Powerful Number
----- complete it before weekend-------------
-45. Subdomain Visit Count 
-46. First Non-repeating Character 
-47. Lru Cache  
-48. X Of A Kind In A Deck  
-49. Brick Wall  
-51. Max Frequency Stack 
-52. Encode And Decode Tinyurl 
+32. Longest Subarray With Equal Number Of 0s 1s And 2s                          --- Q032_LongestSubarrayWithEqualZerosOneTwo.java        
+33. Count Of Subarrays With Equal Number Of 0s 1s And 2s                        --- Q033_CountSubarrayWithEqualZerosOneTwo.java (Naukri360)
+34. Pairs With Equal Sum                                                        --- Q034_PairEqualSum.java
+35. Recurring Sequence In A Fraction                                            --- Q035_RecurringFraction.java (Leetcode 166)
+36. Rabbits In The Forest                                                       --- Q036_RabbitsInForest.java (Leetcode 781)
+37. Double Pair Array                                                           --- Q037_DoublePair.java
+38. Check Arithmetic Sequence                                                   --- Q038_ArithmeticSequence.java
+39. Smallest Subarray With All Occurrences Of The Most Frequent Element         --- Q039_MinSubArrayWithAllOccurenceOfMostFrequentEle.java()
+40. Task Completion                                                             --- Q040_TaskCompletion.java (Gfg Completing tasks)
+41. Pairs With Given Sum In Two Sorted Matrices                                 --- Q041_PairsWithGivenSum.java (Gfg Count pairs Sum in matrices)
+42. Quadruplet Sum                                                              --- Q042_4Sum.java (leetcode 18)
+43. Quadruplet Sum - 2                                                          --- Q043_4Sum2.java (leetcode 454)
+44. Powerful Number                                                             --- Q044_PowerfulNumber.java (leetcode 970)
+45. Subdomain Visit Count                                                       --- Q045_SubDomainVisit.java (leetcode 811)
+46. First Non-repeating Character                                               --- Q046_FirstUniqueChar.java (leetcode 387)
+47. Lru Cache                                                                   --- Q047_LRUCache.java (leetcode 146)
+48. X Of A Kind In A Deck                                                       --- Q048_XofAKind.java (leetcode 914)
+49. Brick Wall                                                                  --- Q049_BrickWall.java (leetcode 554)
+51. Max Frequency Stack                                                         --- Q050_MaxFrequencyStack.java (leetcode 895)
+52. Encode And Decode Tinyurl                                                   --- 
 53. The Skyline Problem 
-54. Insert Delete Getrandom O(1)  
+54. Insert Delete Getrandom O(1)                                                --- Q054_RandomisedSet.java (leetcode 380)
 55. Insert Delete Getrandom O(1) - Duplicates Allowed 
 56. Random Pick With Blacklist 
 57. Avoid Flood In The City  
 58. Pairs Of Non Coinciding Points  
-59. Line Reflection  
+59. Line Reflection  -------------------------------------
 60. Longest Substring With At Most Two Distinct Characters  
 61. Minimum Cost To Connect Sticks 
 62. Tricky Sorting Cost 
